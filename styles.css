@@ -1,0 +1,35 @@
+.form-control {
+  display: inline-block;
+  width: 250px;
+  margin-top: 50px;
+}
+
+th {
+  background-color: darkgray;
+  color: white;
+
+}
+
+.table tr:nth-child(odd){
+  background-color: gainsboro;
+  color: black;
+}
+
+.table tr:nth-child(even){
+  background-color: whitesmoke;
+  color: black;
+}
+
+#background {
+  width: 100%; 
+  height: 100%; 
+  position: fixed; 
+  left: 0px; 
+  top: 0px; 
+  z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+  width:100%;
+  height:100%;
+}
